@@ -1,0 +1,29 @@
+{
+  "name": "gulp-twigger",
+  "description": "Gulp plugin to add Twig template compiling using Twig.js.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/instantiate/gulp-twigger",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/instantiate/gulp-twigger.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": {
+    "name": "Tom Ilett",
+    "email": "tomilett@instantiate.co.uk"
+  },
+  "dependencies": {
+    "deepmerge": "~0.2.7",
+    "gulp-util": "~2.2.14",
+    "through2": "~0.4.0",
+    "twig": "~0.7.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "readmeFilename": "README.md"
+}
